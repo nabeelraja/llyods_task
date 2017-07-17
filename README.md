@@ -20,11 +20,13 @@ To build all the modules run in the project root directory the following command
 
 ## How to Test Servlet
 
-Step 1: Build the project
-Step 2: Install the below packages:
+	Step 1: Build the project
+
+	Step 2: Install the below packages:
 		a) ui.content/target/XXXX
 		b) ui.apps/target/XXXX
-Step 3: Get the servlet response by hitting url: http://localhost:4502/content/llyods.product.123.json
+
+	Step 3: Get the servlet response by hitting url: http://localhost:4502/content/llyods.product.123.json
 
 ## Testing
 
