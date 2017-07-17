@@ -23,8 +23,8 @@ To build all the modules run in the project root directory the following command
 	Step 1: Build the project
 
 	Step 2: Install the below packages:
-		a) ui.content/target/XXXX
-		b) ui.apps/target/XXXX
+		a) ui.content/target/llyods.ui.content-1.0-SNAPSHOT.zip
+		b) ui.apps/target/llyods.ui.apps-1.0-SNAPSHOT.zip
 
 	Step 3: Get the servlet response by hitting url: http://localhost:4502/content/llyods.product.123.json
 
