@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2017-07-15T12:58:35.501+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/apps/llyods/templates/page-product"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="product-123"
+        jcr:title="Washer A"
+        jcr:uuid="d4b63313-85bf-4d2c-92ea-3fe7e57a23cf"
         sling:resourceType="llyods/components/structure/productpage"
-        productId="123">
+        category="washer"
+        productId="WA1001">
         <logo
             jcr:primaryType="nt:unstructured"
             sling:resourceType="llyods/components/structure/logo"/>
